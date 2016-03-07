@@ -12,7 +12,15 @@
 }
 
 /* Header */
-.black-bg{
+.header{
+	position: fixed;
+	z-index: 10;
+	left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+.black-bg, aside .nav-collapse{
 	background: #424A5D;
 }
 .tooltips{
@@ -22,11 +30,83 @@
 .sidebar-toggle-box{
 	display: inline-block;
 	padding: 1%;
+	cursor: pointer;
 }
 .logo{
 	color: white;
 	font-size: 1.2em;
 }
 .top-menu{
-	
+	display: inline;
 }
+.pull-right{
+	padding: 0.8% 2%;
+} 
+.nav > li > a.logout{
+	background-color: #9C4C9D;
+	border-radius: 5px;
+	color: white;
+	font-size: 0.8em;
+	padding: 6px 20px;
+}
+aside .nav-collapse{
+	float: left;
+	height: 100%;
+	width: 210px;
+	position: fixed;
+	z-index: 5;
+}
+.sidebar-menu{
+	list-style-type: none;
+	padding: 2% 8%;
+	color: #F2F2F2;
+	margin-top: 60px;
+}
+.sidebar-menu h5{
+	font-weight: bold;
+}
+.sub-menu{
+	padding: 8% 1%;
+}
+.sub-menu:hover{
+	background-color: #9C4C9D;
+	transition: all 0.4s;
+}
+.sub-menu a{
+	color: #AFB3B7;
+	padding: 2% 4%;
+	margin-right: 55%;
+}
+.sub-menu:hover a{
+	color: white;
+	text-decoration: none;
+}
+.sub-menu:active{
+	background-color: #E26EAB;
+}
+
+/* -- Common -- */
+body{
+	background: #F2F2F2;
+}
+.wrapper{
+	margin-top: 50px;
+    padding: 0px 15px 15px;
+    display: inline-block;
+    width: 100%;
+}
+.showback, .content-panel, .form-panel{
+	margin: 2% 0%;
+	padding: 2%;
+	color: #7B7B7B;
+	background-color: white;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
+}
+h3.gray{
+	color: #7B7B7B;
+}
+/* Gallery */
+.mt{
+	margin-bottom: 2%;
+}
+

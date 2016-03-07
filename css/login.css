@@ -1,0 +1,41 @@
+/* Login */
+.form-login{
+	width: 26%;
+	margin: 5% auto;
+	background-color: #68DFF0;
+	border-radius: 5px;
+}
+.form-login-heading{
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 9%;
+	margin-bottom: 0;
+}
+.login-wrap{
+	background-color: white;
+	padding: 6%;
+	color: #797979;
+}
+.centered p, .registration, .checkbox span a{
+	font-size: 0.9em;
+}
+.registration{
+	text-align: center;
+	padding-top: 6%;
+}
+
+@media (max-width: 768px){
+	/* Login */
+    .form-login{
+    	width: 45%;
+    }
+}
+@media (max-width: 480px){
+	/* Login */
+    .form-login{
+    	width: 65%;
+    }
+}

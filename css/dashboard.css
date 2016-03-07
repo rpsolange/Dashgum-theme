@@ -1,0 +1,100 @@
+/* Dashboard */
+.main-chart .row{
+	padding: 40px 0px 8px;
+}
+.box0{
+	color: #F2F2F2;
+	text-align: center;
+}
+.box0 p{
+	font-size: 0.8em;
+}
+.box1{
+	color: #989898;
+	padding: 8% 0%;
+	border-bottom: 1px solid #989898;
+}
+.box1 span{
+	font-size: 2.5em;
+}
+.box0:hover {
+    background: white;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+.box0:hover p{
+	color: #FF9B79;
+}
+.box0:hover .box1 {
+    border-bottom: 1px solid white;
+}
+
+/* Mis favoritos */
+.page-header{
+	margin: 5px 0px;
+}
+.page-header h1{
+	margin: 0px;
+	color: #7A7A7A;
+}
+.main-video h4{
+	color: #7D7D7D;
+}
+.main-video p{
+	color: #949494;
+	font-size: 0.9em;
+	text-align: justify;
+}
+
+/* Videos Populares */
+.ds{
+	background-color: white;
+	padding-bottom: 2%;
+}
+.ds h3{
+	color: white;
+	background-color: #9C4C9D;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 5% 0%;
+}
+.thumb span{
+	background-color: #68DFF0;
+}
+.desc{
+	padding: 3% 6% 2%;
+	border-bottom: 1px solid #F2F2F2;
+}
+.thumb, .details{
+	display: inline-block;
+	margin: 0px 5px;
+}
+.thumb{
+	width: 30px;
+}
+.thumb span{
+	position: relative;
+	bottom: 30px;
+}
+.details{
+	width: 170px;	
+	font-size: 0.9em;
+}
+.thumb img{
+	position: relative;
+	bottom: 10px;
+}
+.ds p > muted{
+	font-size: 0.8em;
+	font-style: italic;
+	text-transform: uppercase;
+}
+.desc:hover{
+	background-color: #F2F2F2;
+}
+
+@media(max-width: 768px){
+	.box0:hover p{
+		font-size: 1em;
+}

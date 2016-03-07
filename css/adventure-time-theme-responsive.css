@@ -1,1 +1,43 @@
-/*Inserta tu Codigo Responsive*/
+@media(max-width: 768px){
+	/* Header*/
+	.header{
+		position: absolute;
+	}
+	.sidebar-toggle-box {
+		padding: 2%;
+	}
+	.logo{
+		display: inline-block;
+	}
+	.top-menu{
+		margin-top: 1%;
+	}
+	aside .nav-collapse{
+		height: auto;
+	    position: absolute;
+	    width: 100%;
+	}
+	.sidebar-menu{
+		padding: 2%;
+	}
+	.sub-menu{
+		padding: 1.5%;
+	}
+	/* Contenido */
+	#main-content{
+		margin-left: 0 !important;
+	}
+	.showback, .content-panel, .form-panel {
+    	margin: 4% 0%;
+	}
+    .ds{
+    	padding-top: 2%;
+    	margin-bottom: 2%;
+    } 
+
+    /* Gallery */
+    .img-responsive{
+    	margin: auto auto 2%;
+    }
+
+}
